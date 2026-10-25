@@ -1,6 +1,7 @@
-﻿namespace AutoServiceApp.Models;
-
-public class Customer
+namespace AutoServiceApp.Models
 {
-    public string Name { get; set; }
+    public class Customer
+    {
+        public string Name { get; set; } = string.Empty;
+    }
 }
