@@ -1,11 +1,9 @@
-﻿using System.Text;
+using System.Text;
 using AutoServiceApp.Models;
 
-// Настройка кодировки UTF-8 для консоли
 Console.OutputEncoding = Encoding.UTF8;
 Console.InputEncoding = Encoding.UTF8;
 
-// Создание объектов Car
 Car car1 = new()
 {
     Brand = "BMW",
@@ -20,7 +18,6 @@ Car car2 = new()
     Year = 2019
 };
 
-// Создание объектов Customer
 Customer customer1 = new()
 {
     Name = "Олександр Коваленко"
@@ -31,7 +28,6 @@ Customer customer2 = new()
     Name = "Марія Бойко"
 };
 
-// Вывод информации
 Console.WriteLine("Автомобілі:");
 Console.WriteLine($"{car1.Brand} {car1.Model}, {car1.Year} рік");
 Console.WriteLine($"{car2.Brand} {car2.Model}, {car2.Year} рік");
